@@ -1,0 +1,80 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.cover {
+	height: 280px;
+	width: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.cover img {
+	height: auto;
+		width: 100%;
+}
+.book-container {
+	background-color: rgba(0,0,0,.075); 
+	border-radius: 12px; 
+	cursor: pointer; 
+	padding-top: 30px;
+}
+.book-name {
+	font-size: 17px; 
+	margin: 0; 
+	margin-top:10px;
+}
+.book-author-name {
+	font-size: 11px; 
+	color: #999;
+}
+.book-rating-container {
+	position: relative; 
+	padding-bottom: 15px;
+}
+.ratings-container {
+	overflow: hidden; 
+	width: 40%; 
+	position: absolute; 
+	right: 0; 
+	top: 0;
+}
+.ratings-inner {
+	display: block; 
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+.detail-book-name {
+	font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.cart-container {
+	width:250px; 
+	height:350px; 
+	border: 1px solid #999; 
+	box-shadow: 0 0 20px #999;
+	position: fixed; 
+	margin-top:-20px; 
+	right: 0; 
+	background: #f8f8f8; 
+	z-index: 2000;
+	top: 70px;
+	display: none;
+	overflow-y: auto;
+}
